@@ -4,7 +4,7 @@ export default defineConfig({
   title: "baiCha's Project",
   description: "个人笔记",
   // header标签里面插入的内容
-  head: [["link", { rel: "icon", href: "/favicon.ico" }]],
+  head: [["link", { rel: "icon", href: "/images/fireFly.jpg" }]],
   themeConfig: {
     // 网站的logo
     logo: "/images/fireFly.jpg",
@@ -29,7 +29,7 @@ export default defineConfig({
     },
     // 页脚
     footer: {
-      message: "Released under the MIT License.",
+      message: "祝我暴富.",
       copyright: "Copyright © 2023-present China Carlos",
     },
     // 文档的最后更新时间
