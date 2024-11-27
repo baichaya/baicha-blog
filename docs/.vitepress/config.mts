@@ -1,13 +1,14 @@
 import { defineConfig } from "vitepress";
 
 export default defineConfig({
+  base: "/baicha-blog/",
   title: "baiCha's Project",
   description: "个人笔记",
   // header标签里面插入的内容
-  head: [["link", { rel: "icon", href: "/images/fireFly.jpg" }]],
+  head: [["link", { rel: "icon", href: "/baicha-blog/fireFly.png" }]], // 将 favicon.ico 放在公共目录中，如果设置了 base，则使用 /base/favicon.ico
   themeConfig: {
     // 网站的logo
-    logo: "/images/fireFly.jpg",
+    logo: "/fireFly.png",
     // 文章右侧大纲目录
     outline: {
       level: [2, 6],
@@ -29,8 +30,8 @@ export default defineConfig({
     },
     // 页脚
     footer: {
-      message: "祝我暴富.",
-      copyright: "Copyright © 2023-present China Carlos",
+      message: "祝我暴富 🤑",
+      copyright: "开心每一天 😝",
     },
     // 文档的最后更新时间
     lastUpdated: {
@@ -41,17 +42,22 @@ export default defineConfig({
       },
     },
     nav: [
-      { text: "Home", link: "/" },
-      { text: "Examples", link: "/markdown-examples" },
+      { text: "首页", link: "/" },
+      {
+        text: "内容",
+        items: [
+          {
+            text: "笔记",
+            items: [{ text: "笔记一", link: "/noteBook/one" }],
+          },
+        ],
+      },
     ],
 
     sidebar: [
       {
-        text: "Examples",
-        items: [
-          { text: "Markdown Examples", link: "/markdown-examples" },
-          { text: "Runtime API Examples", link: "/api-examples" },
-        ],
+        text: "笔记",
+        items: [{ text: "笔记一", link: "/noteBook/one" }],
       },
     ],
     // 社交链接
@@ -60,5 +66,4 @@ export default defineConfig({
     ],
     // 部署的时候需要注意该参数避免样式丢失
   },
-  base: "/baicha-blog/",
 });

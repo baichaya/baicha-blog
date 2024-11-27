@@ -228,10 +228,9 @@
   box-shadow: 0 10px 30px 0 rgb(0 0 0 / 40%);
 }
 
-/* .vitepress/theme/style/var.css */
-h1 {
-  background: -webkit-linear-gradient(10deg, #bd34fe 5%, #e43498 15%);
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+.VPContent {
+  background-image: url("https://fastcdn.mihoyo.com/content-v2/hkrpg/123868/748c554adb15564a18583fd7949cf008_797073333688994248.png");
+  background-repeat: no-repeat; /* 不重复背景图片 */
+  /* 其他背景属性，如需要的话 */
+  background-position: 125% 50%; /* 背景图片位置 */
 }

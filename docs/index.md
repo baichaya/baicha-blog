@@ -8,11 +8,8 @@ hero:
   tagline: 飞莹扑火，向死而生
   actions:
     - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
-    - theme: alt
-      text: API Examples
-      link: /api-examples
+      text: 笔记
+      link: /noteBook/one
   image:
     src: /images/fireFly.jpg
     alt: 流萤
