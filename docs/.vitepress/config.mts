@@ -31,7 +31,7 @@ export default defineConfig({
     // 页脚
     footer: {
       message: "祝我暴富 🤑",
-      copyright: "开心每一天 😝",
+      copyright: "希望在旅途的终点,每个人都能抵达向往的结局 😝",
     },
     // 文档的最后更新时间
     lastUpdated: {
