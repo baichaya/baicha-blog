@@ -47,8 +47,14 @@ export default defineConfig({
         text: "内容",
         items: [
           {
-            text: "笔记",
-            items: [{ text: "笔记一", link: "/noteBook/one" }],
+            text: "git",
+            items: [{ text: "git命令", link: "/noteBook/git" }],
+          },
+          {
+            text: "ElementPlus",
+            items: [
+              { text: "ElementPlus组件样式", link: "/noteBook/ElementPlus" },
+            ],
           },
         ],
       },
@@ -56,8 +62,12 @@ export default defineConfig({
 
     sidebar: [
       {
-        text: "笔记",
-        items: [{ text: "笔记一", link: "/noteBook/one" }],
+        text: "git",
+        items: [{ text: "git命令", link: "/noteBook/git" }],
+      },
+      {
+        text: "ElementPlus",
+        items: [{ text: "ElementPlus组件样式", link: "/noteBook/ElementPlus" }],
       },
     ],
     // 社交链接
