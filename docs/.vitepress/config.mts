@@ -44,17 +44,11 @@ export default defineConfig({
     nav: [
       { text: "首页", link: "/" },
       {
-        text: "内容",
+        text: "笔记",
         items: [
           {
-            text: "git",
-            items: [{ text: "git命令", link: "/noteBook/git" }],
-          },
-          {
-            text: "ElementPlus",
-            items: [
-              { text: "ElementPlus组件样式", link: "/noteBook/ElementPlus" },
-            ],
+            text: "个人笔记",
+            items: [{ text: "常用代码", link: "/noteBook/git" }],
           },
         ],
       },
@@ -68,6 +62,10 @@ export default defineConfig({
       {
         text: "ElementPlus",
         items: [{ text: "ElementPlus组件样式", link: "/noteBook/ElementPlus" }],
+      },
+      {
+        text: "Vue",
+        items: [{ text: "vue相关", link: "/noteBook/vue" }],
       },
     ],
     // 社交链接

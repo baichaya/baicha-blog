@@ -9,7 +9,7 @@ hero:
   actions:
     - theme: brand
       text: 笔记
-      link: /noteBook/one
+      link: /noteBook/git
   image:
     src: /images/fireFly.jpg
     alt: 流萤
